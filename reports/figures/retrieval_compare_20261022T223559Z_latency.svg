@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360">
+<rect width="100%" height="100%" fill="#0b1c2c"/>
+<text x="60" y="30" fill="#7dd3fc" font-size="16">Avg Latency (ms)</text>
+<rect x="70.0" y="209.36274755791413" width="110.0" height="90.63725244208585" fill="#22d3ee" rx="6"/>
+<text x="70.0" y="318" fill="#cbd5e1" font-size="11">Dense</text>
+<text x="70.0" y="203.36274755791413" fill="#e2e8f0" font-size="11">0.175</text>
+<rect x="200.0" y="214.72550056582256" width="110.0" height="85.27449943417744" fill="#22d3ee" rx="6"/>
+<text x="200.0" y="318" fill="#cbd5e1" font-size="11">BM25</text>
+<text x="200.0" y="208.72550056582256" fill="#e2e8f0" font-size="11">0.165</text>
+<rect x="330.0" y="152.4533502710176" width="110.0" height="147.5466497289824" fill="#22d3ee" rx="6"/>
+<text x="330.0" y="318" fill="#cbd5e1" font-size="11">Hybrid</text>
+<text x="330.0" y="146.4533502710176" fill="#e2e8f0" font-size="11">0.286</text>
+<rect x="460.0" y="60.0" width="110.0" height="240.0" fill="#22d3ee" rx="6"/>
+<text x="460.0" y="318" fill="#cbd5e1" font-size="11">Hybrid + Rerank</text>
+<text x="460.0" y="54.0" fill="#e2e8f0" font-size="11">0.465</text>
+</svg>

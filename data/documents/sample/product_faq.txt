@@ -1,0 +1,16 @@
+Acme Product FAQ — NovaBook Laptop Series
+
+Battery Life
+The NovaBook 14 provides up to 12 hours of mixed-use battery life. Battery health diagnostics are available in the system settings under Power.
+
+Ports and Connectivity
+NovaBook 14 includes two USB-C Thunderbolt ports, one HDMI 2.1 port, and a 3.5mm headphone jack. A USB-A adapter is included in the box.
+
+Software Updates
+Security updates are released monthly. Major OS feature updates are released twice per year. Devices receive security updates for 5 years from the original purchase date.
+
+Accessories
+Official NovaBook sleeves and docking stations are sold separately. Third-party chargers must support USB Power Delivery at 65W or higher.
+
+Repair Centers
+Authorized repair centers exist in Berlin, Toronto, and Singapore. Walk-in repairs require an appointment booked through the support portal.

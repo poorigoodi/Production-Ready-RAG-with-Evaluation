@@ -1,0 +1,17 @@
+Acme Corporation — Customer Policy Handbook
+Version 3.2 — Effective January 1, 2025
+
+1. Refund Policy
+Refund requests are accepted within 14 days of purchase. Customers must provide the original order number and proof of payment. Digital goods that have been downloaded are only eligible for refund if the file is defective. Shipping fees are non-refundable unless the return is caused by an Acme fulfillment error.
+
+2. Warranty Policy
+All physical products sold by Acme include an 18-month limited warranty covering manufacturing defects. The warranty period is 18 months from the delivery date. Accidental damage, water damage, and unauthorized modifications are not covered. Warranty service may include repair, replacement, or store credit at Acme's discretion.
+
+3. Shipping and Delivery
+Standard shipping within the domestic region takes 3 to 5 business days. Express shipping takes 1 to 2 business days. International shipping typically takes 7 to 14 business days depending on customs processing. Acme is not responsible for delays caused by customs authorities.
+
+4. Privacy and Data Retention
+Acme retains customer order records for 24 months. Payment card numbers are never stored in plaintext. Customers may request deletion of personal profile data by contacting privacy@acme.example. Marketing email preferences can be updated in the account dashboard.
+
+5. Account Security
+Customers must use passwords of at least 12 characters. Two-factor authentication is recommended for all accounts. Acme support will never ask for a full password over email or chat.

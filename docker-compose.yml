@@ -1,0 +1,46 @@
+services:
+  api:
+    build: .
+    container_name: rag-api
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    env_file:
+      - .env.example
+    environment:
+      APP_HOST: 0.0.0.0
+      DATABASE_URL: sqlite:///./data/rag.db
+      # CPU-friendly default for containers; set MOCK_MODELS=false and mount model cache for real models.
+      MOCK_MODELS: "${MOCK_MODELS:-true}"
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      LLM_MODEL: ${LLM_MODEL:-Qwen/Qwen2.5-0.5B-Instruct}
+      CORS_ORIGINS: "http://127.0.0.1:8501,http://localhost:8501,http://ui:8501"
+    volumes:
+      - rag-data:/app/data
+      - rag-reports:/app/reports
+      - rag-models:/models
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+
+  ui:
+    build: .
+    container_name: rag-ui
+    command: streamlit run ui/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "${STREAMLIT_PORT:-8501}:8501"
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    volumes:
+      - rag-reports:/app/reports
+
+volumes:
+  rag-data:
+  rag-reports:
+  rag-models:

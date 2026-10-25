@@ -1,0 +1,17 @@
+Acme Employee Handbook
+Human Resources — Confidential internal document
+
+Working Hours
+Standard working hours are 09:00 to 17:30 local time, Monday to Friday. Employees may use flexible start times between 08:00 and 10:00 with manager approval.
+
+Paid Time Off
+Full-time employees receive 20 days of paid vacation per calendar year. Vacation requests should be submitted at least 10 business days in advance. Unused vacation may carry over up to 5 days into the next year.
+
+Remote Work
+Employees may work remotely up to 3 days per week. Core collaboration hours are 11:00 to 15:00 local time when remote. Company-issued laptops must use full-disk encryption.
+
+Parental Leave
+Primary caregivers receive 16 weeks of paid parental leave. Secondary caregivers receive 6 weeks of paid parental leave. Leave must begin within 12 months of the child's birth or adoption.
+
+Expense Policy
+Business travel requires pre-approval for trips exceeding 300 USD. Meal expenses are reimbursed up to 60 USD per day. Personal entertainment is not reimbursable.

@@ -1,0 +1,334 @@
+{
+  "name": "acme_policy_benchmark",
+  "version": "1.0.0",
+  "description": "Verified questions over bundled Acme sample documents. Relevance uses stable text spans resolved to chunk IDs at evaluation time.",
+  "languages": ["en", "fa"],
+  "items": [
+    {
+      "id": "eval_001",
+      "question": "What is the refund period?",
+      "reference_answer": "14 days",
+      "relevant_spans": ["Refund requests are accepted within 14 days of purchase"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_002",
+      "question": "Are shipping fees refundable?",
+      "reference_answer": "Shipping fees are non-refundable unless the return is caused by an Acme fulfillment error.",
+      "relevant_spans": ["Shipping fees are non-refundable unless the return is caused by an Acme fulfillment error"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_003",
+      "question": "How long is the warranty period?",
+      "reference_answer": "18 months",
+      "relevant_spans": ["The warranty period is 18 months from the delivery date"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_004",
+      "question": "Does the warranty cover accidental damage?",
+      "reference_answer": "No. Accidental damage is not covered.",
+      "relevant_spans": ["Accidental damage, water damage, and unauthorized modifications are not covered"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_005",
+      "question": "How long does standard domestic shipping take?",
+      "reference_answer": "3 to 5 business days",
+      "relevant_spans": ["Standard shipping within the domestic region takes 3 to 5 business days"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_006",
+      "question": "How long are customer order records retained?",
+      "reference_answer": "24 months",
+      "relevant_spans": ["Acme retains customer order records for 24 months"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_007",
+      "question": "What is the minimum password length?",
+      "reference_answer": "at least 12 characters",
+      "relevant_spans": ["Customers must use passwords of at least 12 characters"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_008",
+      "question": "When is live chat support available?",
+      "reference_answer": "Monday through Friday, 09:00 to 18:00 UTC",
+      "relevant_spans": ["Live chat support is available Monday through Friday, 09:00 to 18:00 UTC"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_009",
+      "question": "How quickly are refunds processed after a return is received?",
+      "reference_answer": "within 5 business days",
+      "relevant_spans": ["refunds are processed within 5 business days to the original payment method"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_010",
+      "question": "What is the average first response time for support tickets?",
+      "reference_answer": "under 12 hours on business days",
+      "relevant_spans": ["Average first response time for tickets is under 12 hours on business days"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_011",
+      "question": "How many paid vacation days do full-time employees receive?",
+      "reference_answer": "20 days per calendar year",
+      "relevant_spans": ["Full-time employees receive 20 days of paid vacation per calendar year"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_012",
+      "question": "How many remote work days are allowed per week?",
+      "reference_answer": "up to 3 days per week",
+      "relevant_spans": ["Employees may work remotely up to 3 days per week"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_013",
+      "question": "How much paid parental leave do primary caregivers receive?",
+      "reference_answer": "16 weeks",
+      "relevant_spans": ["Primary caregivers receive 16 weeks of paid parental leave"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_014",
+      "question": "What is the daily meal reimbursement limit?",
+      "reference_answer": "60 USD per day",
+      "relevant_spans": ["Meal expenses are reimbursed up to 60 USD per day"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_015",
+      "question": "What battery life does the NovaBook 14 advertise?",
+      "reference_answer": "up to 12 hours of mixed-use battery life",
+      "relevant_spans": ["The NovaBook 14 provides up to 12 hours of mixed-use battery life"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_016",
+      "question": "For how many years does NovaBook receive security updates?",
+      "reference_answer": "5 years from the original purchase date",
+      "relevant_spans": ["Devices receive security updates for 5 years from the original purchase date"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_017",
+      "question": "Which cities have authorized NovaBook repair centers?",
+      "reference_answer": "Berlin, Toronto, and Singapore",
+      "relevant_spans": ["Authorized repair centers exist in Berlin, Toronto, and Singapore"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_018",
+      "question": "What charger wattage is required for third-party NovaBook chargers?",
+      "reference_answer": "USB Power Delivery at 65W or higher",
+      "relevant_spans": ["Third-party chargers must support USB Power Delivery at 65W or higher"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_019",
+      "question": "What should agents tell customers about refund windows and accidental damage warranty?",
+      "reference_answer": "Cite the 14-day refund window; accidental damage is not covered by warranty.",
+      "relevant_spans": [
+        "cite the 14-day refund window from the Customer Policy Handbook",
+        "accidental damage is not covered"
+      ],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "multi_document"
+    },
+    {
+      "id": "eval_020",
+      "question": "Summarize the refund window and how long refunds take after a return arrives.",
+      "reference_answer": "Refunds are requested within 14 days of purchase; after warehouse receipt, refunds process within 5 business days.",
+      "relevant_spans": [
+        "Refund requests are accepted within 14 days of purchase",
+        "refunds are processed within 5 business days"
+      ],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "multi_document"
+    },
+    {
+      "id": "eval_021",
+      "question": "What are Acme's office hours in Tokyo?",
+      "reference_answer": "I couldn't find sufficient information in the uploaded documents.",
+      "relevant_spans": [],
+      "relevant_chunk_ids": [],
+      "insufficient_evidence": true,
+      "language": "en",
+      "type": "insufficient"
+    },
+    {
+      "id": "eval_022",
+      "question": "Does Acme offer cryptocurrency payments?",
+      "reference_answer": "I couldn't find sufficient information in the uploaded documents.",
+      "relevant_spans": [],
+      "relevant_chunk_ids": [],
+      "insufficient_evidence": true,
+      "language": "en",
+      "type": "insufficient"
+    },
+    {
+      "id": "eval_023",
+      "question": "What is the stock price of Acme?",
+      "reference_answer": "I couldn't find sufficient information in the uploaded documents.",
+      "relevant_spans": [],
+      "relevant_chunk_ids": [],
+      "insufficient_evidence": true,
+      "language": "en",
+      "type": "insufficient"
+    },
+    {
+      "id": "eval_024",
+      "question": "What is the warranty period?",
+      "reference_answer": "18 months",
+      "relevant_spans": ["The warranty period is 18 months from the delivery date"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "followup_context",
+      "notes": "Follow-up pair with eval_025"
+    },
+    {
+      "id": "eval_025",
+      "question": "Does it cover accidental damage?",
+      "reference_answer": "No. Accidental damage is not covered.",
+      "relevant_spans": ["Accidental damage, water damage, and unauthorized modifications are not covered"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "followup",
+      "followup_of": "eval_024"
+    },
+    {
+      "id": "eval_026",
+      "question": "مدت بازگشت کالا چند روز است؟",
+      "reference_answer": "۱۴ روز",
+      "relevant_spans": ["درخواست بازگشت کالا تا ۱۴ روز پس از خرید پذیرفته می‌شود"],
+      "relevant_chunk_ids": [],
+      "language": "fa",
+      "type": "factual"
+    },
+    {
+      "id": "eval_027",
+      "question": "مدت گارانتی چقدر است؟",
+      "reference_answer": "۱۸ ماه",
+      "relevant_spans": ["مدت گارانتی محصولات فیزیکی ۱۸ ماه از تاریخ تحویل است"],
+      "relevant_chunk_ids": [],
+      "language": "fa",
+      "type": "factual"
+    },
+    {
+      "id": "eval_028",
+      "question": "آیا آسیب تصادفی تحت پوشش گارانتی است؟",
+      "reference_answer": "خیر، آسیب تصادفی تحت پوشش نیست.",
+      "relevant_spans": ["آسیب تصادفی و نفوذ آب تحت پوشش گارانتی نیست"],
+      "relevant_chunk_ids": [],
+      "language": "fa",
+      "type": "factual"
+    },
+    {
+      "id": "eval_029",
+      "question": "ساعات پشتیبانی گفتگوی زنده چیست؟",
+      "reference_answer": "دوشنبه تا جمعه، ساعت ۹ تا ۱۸ به وقت UTC",
+      "relevant_spans": ["پشتیبانی گفتگوی زنده از دوشنبه تا جمعه، ساعت ۹ تا ۱۸ به وقت UTC فعال است"],
+      "relevant_chunk_ids": [],
+      "language": "fa",
+      "type": "factual"
+    },
+    {
+      "id": "eval_030",
+      "question": "سوابق سفارش تا چه مدت نگهداری می‌شود؟",
+      "reference_answer": "۲۴ ماه",
+      "relevant_spans": ["سوابق سفارش به مدت ۲۴ ماه نگهداری می‌شود"],
+      "relevant_chunk_ids": [],
+      "language": "fa",
+      "type": "factual"
+    },
+    {
+      "id": "eval_031",
+      "question": "What order status means a carrier scan exists?",
+      "reference_answer": "SHIPPED",
+      "relevant_spans": ["SHIPPED: Carrier scan exists; tracking number available"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_032",
+      "question": "When must billing disputes be escalated to finance?",
+      "reference_answer": "Billing disputes above 500 USD",
+      "relevant_spans": ["Billing disputes above 500 USD must be escalated to the finance desk"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_033",
+      "question": "How much unused vacation can carry over?",
+      "reference_answer": "up to 5 days",
+      "relevant_spans": ["Unused vacation may carry over up to 5 days into the next year"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_034",
+      "question": "What are NovaBook 14 ports?",
+      "reference_answer": "two USB-C Thunderbolt ports, one HDMI 2.1 port, and a 3.5mm headphone jack",
+      "relevant_spans": ["NovaBook 14 includes two USB-C Thunderbolt ports, one HDMI 2.1 port, and a 3.5mm headphone jack"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    },
+    {
+      "id": "eval_035",
+      "question": "Who should receive product safety complaint escalations?",
+      "reference_answer": "the compliance team",
+      "relevant_spans": ["Product safety complaints must be escalated immediately to the compliance team"],
+      "relevant_chunk_ids": [],
+      "language": "en",
+      "type": "factual"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+credentials.json
+
+# Local data & indexes (keep structure via .gitkeep)
+data/documents/*
+!data/documents/.gitkeep
+!data/documents/sample/
+!data/documents/sample/**
+data/indexes/*
+!data/indexes/.gitkeep
+data/rag.db
+data/*.db
+*.db-journal
+
+# Models & caches
+.cache/
+models/
+*.bin
+*.gguf
+*.safetensors
+huggingface/
+.huggingface/
+torch_cache/
+
+# Reports generated locally (keep tracked sample reports if any)
+reports/metrics/*
+!reports/metrics/.gitkeep
+!reports/metrics/retrieval_compare_*_report.json
+!reports/metrics/retrieval_compare_*_retrieval.csv
+reports/figures/*
+!reports/figures/.gitkeep
+!reports/figures/retrieval_compare_*.svg
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+tmp/
+temp/
+uploads/
+*.tmp

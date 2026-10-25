@@ -1,0 +1,9 @@
+# Install with: pip install -r requirements-local.txt
+# Use this for local CPU development with lighter optional deps pin notes.
+-r requirements.txt
+
+# Optional: GPU FAISS (uninstall faiss-cpu first)
+# faiss-gpu
+
+# Optional: bitsandbytes for quantized LLM inference (Linux/CUDA)
+# bitsandbytes>=0.43.0

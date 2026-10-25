@@ -1,0 +1,80 @@
+{
+  "report_id": "retrieval_compare_20261022T223559Z",
+  "timestamp": "2026-10-22T22:35:59.427439+00:00",
+  "benchmark_version": "1.0.0",
+  "benchmark_name": "acme_policy_benchmark",
+  "sample_count": 32,
+  "models": {
+    "embedding_model": "BAAI/bge-m3",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "llm_model": "Qwen/Qwen3-1.7B",
+    "mock_models": true
+  },
+  "retrieval_settings": {
+    "top_k": 5,
+    "rrf_k": 60,
+    "enable_reranking": true
+  },
+  "chunking_settings": {
+    "chunk_size": 800,
+    "chunk_overlap": 150,
+    "chunk_strategy": "paragraph"
+  },
+  "environment": {
+    "python": "3.14.7",
+    "platform": "Windows-11-10.0.28000-SP0"
+  },
+  "retrieval_metrics": [
+    {
+      "Method": "Dense",
+      "Recall@5": 0.38541666666666663,
+      "Precision@5": 0.0875,
+      "MRR": 0.21718749999999998,
+      "NDCG@5": 0.2509741766676665,
+      "Latency_ms_avg": 0.17545625269121956,
+      "Latency_ms_p50": 0.1501000369898975,
+      "Latency_ms_p95": 0.25053999852389097
+    },
+    {
+      "Method": "BM25",
+      "Recall@5": 1.0,
+      "Precision@5": 0.36822916666666666,
+      "MRR": 0.984375,
+      "NDCG@5": 0.988466554799108,
+      "Latency_ms_avg": 0.1650749964028364,
+      "Latency_ms_p50": 0.15579996397718787,
+      "Latency_ms_p95": 0.21216499153524637
+    },
+    {
+      "Method": "Hybrid",
+      "Recall@5": 1.0,
+      "Precision@5": 0.225,
+      "MRR": 0.575,
+      "NDCG@5": 0.6743312824050405,
+      "Latency_ms_avg": 0.2856218779925257,
+      "Latency_ms_p50": 0.2769499842543155,
+      "Latency_ms_p95": 0.3607200225815177
+    },
+    {
+      "Method": "Hybrid + Rerank",
+      "Recall@5": 0.984375,
+      "Precision@5": 0.21875,
+      "MRR": 1.0,
+      "NDCG@5": 0.9879108497739206,
+      "Latency_ms_avg": 0.46459374607366044,
+      "Latency_ms_p50": 0.4607000155374408,
+      "Latency_ms_p95": 0.509645018610172
+    }
+  ],
+  "answer_metrics": null,
+  "extra_config": {},
+  "artifacts": {
+    "csv": "E:\\Production-Ready RAG with Evaluation\\reports\\metrics\\retrieval_compare_20261022T223559Z_retrieval.csv",
+    "json": "E:\\Production-Ready RAG with Evaluation\\reports\\metrics\\retrieval_compare_20261022T223559Z_report.json"
+  },
+  "limitations": [
+    "Automated metrics do not guarantee factual correctness.",
+    "Default cross-encoder is English-oriented.",
+    "Relevance labels may need regeneration if chunking changes."
+  ]
+}

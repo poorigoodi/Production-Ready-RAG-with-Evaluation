@@ -1,0 +1,23 @@
+{
+  "instructions": "Rate each answer from 1 (poor) to 5 (excellent). Automated metrics do not replace human judgment.",
+  "dimensions": [
+    "correctness",
+    "groundedness",
+    "completeness",
+    "citation_accuracy"
+  ],
+  "items": [
+    {
+      "question_id": "eval_001",
+      "question": "What is the refund period?",
+      "model_answer": "",
+      "ratings": {
+        "correctness": null,
+        "groundedness": null,
+        "completeness": null,
+        "citation_accuracy": null
+      },
+      "notes": ""
+    }
+  ]
+}

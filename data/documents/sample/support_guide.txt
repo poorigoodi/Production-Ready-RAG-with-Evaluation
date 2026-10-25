@@ -1,0 +1,21 @@
+Acme Support Operations Guide
+Internal reference for customer success agents
+
+Order Status Codes
+- PENDING: Payment authorized, not yet packed.
+- PACKED: Order is in the warehouse packing queue.
+- SHIPPED: Carrier scan exists; tracking number available.
+- DELIVERED: Carrier confirms delivery.
+- CANCELLED: Order cancelled before shipment.
+
+Returns Workflow
+Customers initiate returns from the Orders page. Once approved, a prepaid return label is emailed within 24 hours. After the warehouse receives the item, refunds are processed within 5 business days to the original payment method.
+
+Live Chat Hours
+Live chat support is available Monday through Friday, 09:00 to 18:00 UTC. Outside these hours, customers should open a ticket. Average first response time for tickets is under 12 hours on business days.
+
+Escalation
+Billing disputes above 500 USD must be escalated to the finance desk. Product safety complaints must be escalated immediately to the compliance team.
+
+Knowledge Base Tips
+When a customer asks about refunds, cite the 14-day refund window from the Customer Policy Handbook. When a customer asks about warranty coverage for accidental damage, clearly state that accidental damage is not covered.

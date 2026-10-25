@@ -1,0 +1,70 @@
+{
+  "chat_example": {
+    "request": {
+      "question": "What is the refund policy?",
+      "retrieval_mode": "hybrid",
+      "top_k": 3,
+      "rerank": true
+    },
+    "response": {
+      "answer": "Acme Corporation — Customer Policy Handbook Version 3.2 — Effective January 1, 2025 1. Refund Policy Refund requests are accepted within 14 days of purchase. Customers must provide the original order number and proof of payment. Digital goods that have been downloaded are only… [Source 1]",
+      "sources": [
+        {
+          "document": "company_policy.txt",
+          "page": null,
+          "chunk_id": "doc_001_chunk_000",
+          "score": 3.035368,
+          "text_preview": "Acme Corporation — Customer Policy Handbook\nVersion 3.2 — Effective January 1, 2025\n\n1. Refund Policy\nRefund requests are accepted within 14 days of purchase. Customers must provide the original order…"
+        },
+        {
+          "document": "support_guide.txt",
+          "page": null,
+          "chunk_id": "doc_002_chunk_001",
+          "score": 3.033231,
+          "text_preview": "label is emailed within 24 hours. After the warehouse receives the item, refunds are processed within 5 business days to the original payment method.\n\nLive Chat Hours\nLive chat support is available Mo…"
+        },
+        {
+          "document": "hr_handbook.txt",
+          "page": null,
+          "chunk_id": "doc_003_chunk_001",
+          "score": 2.060103,
+          "text_preview": "otely up to 3 days per week. Core collaboration hours are 11:00 to 15:00 local time when remote. Company-issued laptops must use full-disk encryption.\n\nParental Leave\nPrimary caregivers receive 16 wee…"
+        }
+      ],
+      "latency_ms": 42.31,
+      "conversation_id": "conversation-37dfe311fba8",
+      "abstained": false
+    }
+  },
+  "search_example": {
+    "request": {
+      "query": "warranty period",
+      "retrieval_mode": "hybrid",
+      "top_k": 3,
+      "rerank": true
+    },
+    "response": {
+      "latency_ms": 0.69,
+      "results": [
+        {
+          "chunk_id": "doc_001_chunk_000",
+          "document": "company_policy.txt",
+          "score": 2.0354,
+          "text": "Acme Corporation — Customer Policy Handbook\nVersion 3.2 — Effective January 1, 2025\n\n1. Refund Policy\nRefund requests are accepted within 14 days of purchase. Customers must provid"
+        },
+        {
+          "chunk_id": "doc_002_chunk_001",
+          "document": "support_guide.txt",
+          "score": 1.0332,
+          "text": "label is emailed within 24 hours. After the warehouse receives the item, refunds are processed within 5 business days to the original payment method.\n\nLive Chat Hours\nLive chat sup"
+        },
+        {
+          "chunk_id": "doc_001_chunk_001",
+          "document": "company_policy.txt",
+          "score": 1.0316,
+          "text": "water damage, and unauthorized modifications are not covered. Warranty service may include repair, replacement, or store credit at Acme's discretion.\n\n3. Shipping and Delivery\nStan"
+        }
+      ]
+    }
+  }
+}
